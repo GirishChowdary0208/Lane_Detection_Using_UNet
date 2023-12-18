@@ -13,7 +13,7 @@ The TuSimple dataset consists of 6,408 road images on US highways. The resolutio
 
 ## UNet Architecuture 
 
-![unet](https://github.com/maheshmm7/Lane_Detection_using_UNet/assets/121345928/e4b5d95f-7bb1-4009-a0f0-cc6efdc3820e)
+![UNet Architecture ](https://github.com/GirishChowdary0208/Lane_Detection_Using_UNet/assets/92716279/43430fdb-ee9b-4db3-8643-e6a1747a4e59)
 
 
 ## Downloads :    
@@ -58,7 +58,7 @@ To test the code
 
 ## METRICS VISUALIZATION
 
-![__results___21_0](https://github.com/maheshmm7/Lane_Detection_using_UNet/assets/121345928/1d451794-ec53-4659-b52f-134eca541314)
+![UNet Metrics](https://github.com/GirishChowdary0208/Lane_Detection_Using_UNet/assets/92716279/38e39fb6-2b60-4b3e-aa7d-3c1765d705cc)
 
 
 The Above graph visualize the metrics during the training process, it shows the graph showing Training & Validation Loss and Training & Validation Accuracy with the staring value and ending value.  The graphs shows the gradual decrease in the loss function and gradual increase accuracy as shown in the visualization.
@@ -72,13 +72,11 @@ tensorboard --logdir=path/to/your/logs/directory
 After running the command, open your web browser and go to http://localhost:6006 to access the TensorBoard interface. You'll be able to navigate through the different tabs to explore the data recorded in the tensorboard v2 file.
 ## Predictions 
 
-![output](https://github.com/maheshmm7/Lane_Detection_using_UNet/assets/121345928/d17f5a29-1755-408d-a9ea-a214620751e6)
-
-![output_2](https://github.com/maheshmm7/Lane_Detection_using_UNet/assets/121345928/738d85e1-5903-460a-9038-cbfb74ac1a64)
-
+![Unet output1](https://github.com/GirishChowdary0208/Lane_Detection_Using_UNet/assets/92716279/c5caeb2d-437a-4acf-b239-46b90b70ce7d)
+![Unet output2](https://github.com/GirishChowdary0208/Lane_Detection_Using_UNet/assets/92716279/2dc80427-82b1-4367-8bd3-96978ec7533f)
 
 
-I tested the Predictions on the inference code by loading the saved .h5 weights file and testing it on the new images.  The model predictions came out to be good as shown in the figures.
+I tested the Predictions on the inference code by loading the saved.h5 weights file and testing it on the new images.  The model predictions came out to be good as shown in the figures.
 
 ## 🔗 Connect with me
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GirishChowdary0208)
